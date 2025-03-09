@@ -3,5 +3,7 @@
 </script>
 
 <template>
-  <div>This is Home page</div>
+  <div>
+    This is News ticker
+  </div>
 </template>

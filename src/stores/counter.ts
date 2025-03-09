@@ -1,12 +1,26 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
-export const useCounterStore = defineStore('counter', () => {
-  const count = ref(0)
-  const doubleCount = computed(() => count.value * 2)
+export const useNewsStore = defineStore('news', () => {
+  const news = ref(0)
+  const doubleCount = computed(() => news.value * 2)
   function increment() {
-    count.value++
+    news.value++
   }
 
-  return { count, doubleCount, increment }
+  return { news, doubleCount, increment }
+})
+
+export const useEventStore = defineStore('event', () => {
+  const event = ref({})
+  console.log(event)
+})
+
+export const useFriendlyStoreStore = defineStore('store', () => {
+  const store = ref({})
+  console.log(store)
+})
+
+export const useUserInterfaceStore = defineStore('userInterface', () => {
+
 })
