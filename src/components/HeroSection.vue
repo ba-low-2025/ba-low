@@ -1,9 +1,5 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    This is Hero Section
-  </div>
+  <div class="h-50 bg-blue-500">This is Hero Section</div>
 </template>

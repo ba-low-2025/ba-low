@@ -1,9 +1,5 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    This is Event Calendar
-  </div>
+  <div class=" bg-lime-500 flex-grow">This is Event Calendar</div>
 </template>

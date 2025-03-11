@@ -1,9 +1,5 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    This is Petition Print Section
-  </div>
+  <div class=" bg-slate-400">This is Petition Print Section</div>
 </template>

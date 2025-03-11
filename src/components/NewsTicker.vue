@@ -1,9 +1,5 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    This is News ticker
-  </div>
+  <div class="h-10 bg-emerald-300">This is News ticker</div>
 </template>

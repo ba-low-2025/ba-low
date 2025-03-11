@@ -1,9 +1,5 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    This is Store Map
-  </div>
+  <div class=" h-full bg-pink-500 flex-grow">This is Store Map</div>
 </template>

@@ -1,9 +1,5 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    This is Footer
-  </div>
+  <div class=" bg-amber-800 h-10">This is Footer</div>
 </template>
