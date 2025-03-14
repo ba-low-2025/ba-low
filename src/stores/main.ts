@@ -11,7 +11,7 @@ export const useNewsStore = defineStore('news', () => {
 export const useEventStore = defineStore('event', () => {
   const events = ref<EventItem[]>([])
   function addEvent(event: EventItem) {
-    events.value.push(event);
+    events.value.push(event)
   }
   console.log(events)
 
@@ -25,6 +25,4 @@ export const useFriendlyStoreStore = defineStore('store', () => {
   return { stores }
 })
 
-export const useUserInterfaceStore = defineStore('userInterface', () => {
-
-})
+export const useUserInterfaceStore = defineStore('userInterface', () => {})

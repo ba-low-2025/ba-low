@@ -9,7 +9,7 @@ import PrintPetition from '@/components/PrintPetition.vue'
 <template>
   <HeroSection />
   <NewsTicker />
-  <div class=" lg:flex">
+  <div class="lg:flex">
     <EventCalendar />
     <StoreMap />
     <PrintPetition />
