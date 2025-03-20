@@ -6,7 +6,7 @@ import FooterItem from './components/FooterItem.vue'
 
 <template>
   <div class="flex flex-col w-full">
-    <header class="text-sm/tight text-center">
+    <header class="h-15 p-2">
       <HeaderItem />
     </header>
     <main>
