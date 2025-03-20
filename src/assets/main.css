@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300;400;700&display=swap');
 @import 'tailwindcss';
 @plugin "daisyui";
+
+@theme {
+  --font-display: 'Oswald', 'sans-serif', 'LXGW WenKai Mono TC';
+}
 
 #app {
   font-weight: normal;
