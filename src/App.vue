@@ -6,13 +6,13 @@ import FooterItem from './components/FooterItem.vue'
 
 <template>
   <div class="flex flex-col w-full h-screen">
-    <header class="h-15 p-2 flex-grow">
+    <header>
       <HeaderItem />
     </header>
     <main>
       <RouterView />
     </main>
-    <footer class="flex-grow">
+    <footer>
       <FooterItem />
     </footer>
   </div>
