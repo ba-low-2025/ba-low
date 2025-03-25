@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="w-full space-y-5">
+  <div class="w-full space-y-5 p-3">
     <div>
       <p class="font-display">
         雲端列印說明： ✏️空白連署書（印出來寫，全新紙張，單面列印，1份有3頁，第1頁警語可不印）
