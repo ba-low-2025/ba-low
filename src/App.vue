@@ -5,14 +5,14 @@ import FooterItem from './components/FooterItem.vue'
 </script>
 
 <template>
-  <div class="flex flex-col w-full">
-    <header class="h-15 p-2">
+  <div class="flex flex-col w-full h-screen">
+    <header class="h-15 p-2 flex-grow">
       <HeaderItem />
     </header>
     <main>
       <RouterView />
     </main>
-    <footer>
+    <footer class="flex-grow">
       <FooterItem />
     </footer>
   </div>
