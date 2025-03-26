@@ -8,6 +8,6 @@
     height="400"
     frameborder="0"
     scrolling="no"
-    class="w-full flex-grow"
+    class="w-full flex-grow rounded-xl"
   ></iframe>
 </template>

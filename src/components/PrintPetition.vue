@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="w-full space-y-5 p-3">
+  <div class="w-full space-y-5 p-3 border-1 border-base-300 rounded-xl">
     <div>
       <p class="font-display">
         雲端列印說明： ✏️空白連署書（印出來寫，全新紙張，單面列印，1份有3頁，第1頁警語可不印）
@@ -16,7 +16,7 @@
     <div class="flex flex-col items-center">
       <div class="font-display">Ibon 列印</div>
       <p class="font-display">列印說明： ✏️空白連署書（印出來寫，單面列印，1份有2頁）</p>
-      <img src="../assets/ibon-qrcode.png" alt="" class="w-80 h-80" />
+      <img src="../assets/ibon-qrcode.png" alt="" class="w-80 h-80 rounded-xl" />
     </div>
   </div>
 </template>

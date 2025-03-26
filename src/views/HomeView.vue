@@ -10,13 +10,13 @@ import PrintPetition from '@/components/PrintPetition.vue'
   <HeroSection />
   <NewsTicker />
   <div class="h-full min-h-0 lg:flex">
-    <div class="flex flex-col lg:w-1/3">
+    <div class="flex flex-col p-2 lg:w-1/3">
       <EventCalendar />
     </div>
-    <div class="flex flex-col lg:w-1/3">
+    <div class="flex flex-col p-2 lg:w-1/3">
       <StoreMap />
     </div>
-    <div class="lg:w-1/3">
+    <div class="p-2 lg:w-1/3">
       <PrintPetition />
     </div>
   </div>
