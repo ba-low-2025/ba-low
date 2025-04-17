@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const recallPetitionGoal = 70000
-const recallPetitionAmounts = ref(10786)
+const recallPetitionGoal = 40000
+const recallPetitionAmounts = ref(23000)
 const progressStyle = recallPetitionAmounts.value < 35000 ? 'progress-error' : 'progress-warning'
 </script>
 
@@ -16,6 +16,6 @@ const progressStyle = recallPetitionAmounts.value < 35000 ? 'progress-error' : '
     class="progress bg-neutral-300 w-70 h-15 lg:w-96"
     :class="progressStyle"
     :value="recallPetitionAmounts"
-    max="70000"
+    max="40000"
   ></progress>
 </template>

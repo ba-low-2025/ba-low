@@ -5,10 +5,10 @@ import ProgressBar from '@/components/ProgressBar.vue'
 
 <template>
   <div class="hero w-full">
-    <div class="hero-content flex-col lg:flex-row">
+    <div class="hero-content flex-col lg:flex-row lg:space-x-20">
       <img
-        src="https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/474583817_122134859684387506_4853398245680868548_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Ck79dFJ0oIUQ7kNvgH_bN3l&_nc_oc=AdkMKQ4qJw_VvljbpwA8z4FNPOdCPsD1TLdNA1v9TWitZpIZTYmx0Bxg1M0v4wywTPU&_nc_zt=23&_nc_ht=scontent-ams4-1.xx&_nc_gid=5kPoX8jKmJ_Kj-mGPYGESw&oh=00_AYFx-YSNPwfMQZtu1jEQXTRChDGrCkjjcTgjm4hovO_a7w&oe=67E892F2"
-        class="max-w-3xs rounded-lg shadow-2xl"
+        src="https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/485795190_122141184326387506_5916621920623132547_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GNddOrD9YugQ7kNvwEFd9wI&_nc_oc=AdkYL-2RRJKOcaoC5bSFejXwIiIeq3JsZBNKzjdmMWPrZb7jBEgtXU-EhkAH4n6UF4k&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&_nc_gid=kgTKM7uWBKBnLvGSn8aSWw&oh=00_AfGO9HwFSitwpzR3kBrCfoU7HGFz6mqi_v5_OFUx4pnCuw&oe=6806AA42"
+        class="max-w-2xs rounded-lg shadow-2xl"
       />
       <div class="space-y-5">
         <div class="space-y-5 flex flex-col justify-center">
